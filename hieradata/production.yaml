@@ -39,10 +39,10 @@ profiles::base::sysctl_defaults:
   permanent: 'yes'
 roles::syd_f5_load_balancer::vlans:
   VLAN08:
-	  vlan_tag:    '08'
-	  interface:   '1.2'
-	  description: 'Test VLAN08'
-	  tag_type:    'tagged'
+    vlan_tag:    '08'
+    interface:   '1.2'
+    description: 'Test VLAN08'
+    tag_type:    'tagged'
   VLAN09: {}
   VLAN10: {}
   VLAN11: {}
