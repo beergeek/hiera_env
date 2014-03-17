@@ -58,7 +58,7 @@ roles::syd_f5_load_balancer::vlans:
   VLAN21: {}
   VLAN22:
     ensure: 'absent'
-roles::syd_f5_load_balancer::vlans_defaults:
+roles::syd_f5_load_balancer::vlan_defaults:
   ensure:    'present'
   vlan_tag:  'auto'
   interface: '1.3'
