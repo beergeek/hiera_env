@@ -1,2 +1,2 @@
 ---
-profiles::ntp_client::ntp_servers: ['192.168.62.1']
+profiles::ntp_client::ntp_servers: ['192.168.1.1']

@@ -1,4 +1,4 @@
 ---
 
 profiles::apache_server::port: '80'
-profiles::apache_server::docroot: 'loli.puppetlabs.vm'
+profiles::apache_server::docroot: '/var/www/loli.puppetlabs.vm'
