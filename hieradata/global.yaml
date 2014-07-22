@@ -54,3 +54,8 @@ profiles::database_services::db_hash:
 profiles::database_services::db_defaults:
   user: 'vmware'
   password: 'secret'
+profiles::web_services::host_hash:
+  'elmo.puppetlabs.vm': {}
+  'kermit.puppetlabs.vm': {}
+profiles::web_services::host_defaults:
+  ip: '$::ipaddress'
