@@ -58,4 +58,4 @@ profiles::web_services::host_hash:
   'elmo.puppetlabs.vm': {}
   'kermit.puppetlabs.vm': {}
 profiles::web_services::host_defaults:
-  ip: '%{::ipaddress}"
+  ip: "%{::ipaddress}"
