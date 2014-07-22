@@ -44,7 +44,7 @@ profiles::web_services::website_hash:
 profiles::web_services::website_defaults:
   port: '80'
   priority: '10'
-  docroot: "/var/www/\${title}"
+  docroot: '/var/www/${title}'
 profiles::web_services::host_hash:
   'elmo.puppetlabs.vm': {}
   'kermit.puppetlabs.vm': {}
