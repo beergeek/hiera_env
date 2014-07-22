@@ -39,8 +39,10 @@ profiles::base::sysctl_defaults:
   ensure: present
   permanent: 'yes'
 profiles::web_services::website_hash:
-  'elmo.puppetlabs.vm': {}
-  'kermit.puppetlabs.vm': {}
+  'elmo.puppetlabs.vm':
+    docroot: '/var/www/elmo'
+  'kermit.puppetlabs.vm': 
+    docroot: '/var/www/kermit'
 profiles::web_services::website_defaults:
   port: '80'
   priority: '10'
