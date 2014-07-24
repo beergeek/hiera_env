@@ -1,5 +1,5 @@
 ---
-profiles::ntp_client::ntp_servers: ['192.168.1.1']
+profiles::ntp_client::ntp_servers: ['192.168.250.1','192.168.250.2']
 profiles::base::sysctl_settings:
   kernel.msgmnb:
     value : '65536'
