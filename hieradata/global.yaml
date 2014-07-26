@@ -41,24 +41,21 @@ profiles::base::sysctl_defaults:
 profiles::web_services::website_hash:
   'elmo.puppetlabs.vm':
     docroot: '/var/www/elmo'
-    repo_source: 'https://github.com/beergeek/elmo_website.git'
-  'kermit.puppetlabs.vm': 
+    repo_source: 'https://github.com/beergeek/elmo.git'
+  'kermit.puppetlabs.vm':
     docroot: '/var/www/kermit'
-    repo_source: 'https://github.com/beergeek/kermit_website.git'
+    repo_source: 'https://github.com/beergeek/kermit.git'
   'animal.puppetlabs.vm':
     docroot: '/var/www/animal'
-    repo_source: 'https://github.com/beergeek/animal_website.git'
+    repo_source: 'https://github.com/beergeek/animal.git'
   'rob.puppetlabs.vm':
     docroot: '/var/www/rob'
-    repo_source: 'https://github.com/beergeek/rob_website.git'
+    repo_source: 'https://github.com/beergeek/rob.git'
 profiles::web_services::website_defaults:
   port: '80'
   priority: '10'
   docroot: '/var/www/${title}'
   repo_provider: git
-profiles::web_services::host_hash:
-  'elmo.puppetlabs.vm': {}
-  'kermit.puppetlabs.vm': {}
 profiles::database_services::db_hash:
   elmo: {}
   kermit: {}
